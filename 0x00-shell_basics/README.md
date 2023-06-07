@@ -4,3 +4,4 @@ ls display the contents list of your current directory
 cd ~  changes the working directory to the user’s home directory
 ls -l display current directory contents in a long format
 ls -al display current directory contents, including hidden files starting with dot using the long format
+ls -lan Display current directory contents in long format with user and group IDs displayed numerically and hidden files starting with dot
