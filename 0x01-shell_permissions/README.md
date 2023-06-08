@@ -14,3 +14,4 @@ sudo chmod -R +111 */ Create a script that adds execute permission to all subdir
 mkdir -m 751 my_dir Create a script that creates a directory called my_dir with permissions 751 in the working directory
 chgrp school hello changes the group owner to school for the file hello
 chown vincent:staff * changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+chown -h vincent:staff _hello  changes the owner and the group owner of _hello to vincent and staff respectively
