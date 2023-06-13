@@ -10,7 +10,7 @@ echo Best School | cat > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) writes a shell s
 ls -la > ls_cwd_content writes a script that writes into the file ls_cwd_content the result of the command ls -la
 tail -n 1 iacta | cat >> iacta writes a script that duplicates the last line of the file iacta
 find . -name "*.js" -type f -delete Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
-
+ls -lt | head Displays the 10 newest files in the current directory
 
 
 
