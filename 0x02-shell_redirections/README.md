@@ -12,6 +12,8 @@ tail -n 1 iacta | cat >> iacta writes a script that duplicates the last line of 
 find . -name "*.js" -type f -delete Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 ls -lt | head Displays the 10 newest files in the current directory
 sort | uniq -u Creates a script that takes a list of words as input and prints only words that appear exactly once.
+grep root /etc/passwd display lines containing the pattern “root” from the file /etc/passwd
+
 
 
 
