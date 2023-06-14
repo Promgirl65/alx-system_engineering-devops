@@ -17,6 +17,7 @@ grep -c bin /etc/passwd Display the number of lines that contain the pattern “
 cat /etc/passwd | grep -A 3 "root" Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 greo -v bin /etc/passwd Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
 grep ^[[:alpha:]] /etc/ssh/sshd_config Display all lines of the file /etc/ssh/sshd_config starting with a letter
+tr 'Ac' 'Ze' Replace all characters A and c from input to Z and e respectively
 
 
 
