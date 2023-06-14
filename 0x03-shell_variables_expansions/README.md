@@ -6,3 +6,4 @@ PATH=$PATH:/action adds /action to the PATH. /action should be the last director
 echo $PATH | tr ":" "\n" | wc -l creates a script that counts the number of directories in the PATH
 printenv create a script that lists environment variables
 set creates a script that lists all local variables and environment variables, and functions
+BEST="School" Create a script that creates a new local variable
