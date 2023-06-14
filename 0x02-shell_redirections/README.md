@@ -24,6 +24,7 @@ cut -d":" --fields=1,6 /etc/passwd | sort Write a script that displays all users
 find . -empty -printf "%f\n" Write a command that finds all empty files and directories in the current directory and all sub-directories
 find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories
 echo -ne $(cut -c-1 | tr -d '\n')'\n' Create a script that decodes acrostics that use the first letter of each line
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11 Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests
 
 
 
