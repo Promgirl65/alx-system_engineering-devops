@@ -15,3 +15,4 @@ echo $((2#$BINARY)) Write a script that converts a number from base 2 to base 10
 echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo Create a script that prints all possible combinations of two letters, except oo
 printf "%0.2f\n" $NUM Write a script that prints a number with two decimal places, followed by a new line
 printf "%x\n" $DECIMAL Write a script that converts a number from base 10 to base 16
+tr 'A-Za-z' 'N-ZA-Mn-za-m' Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII
