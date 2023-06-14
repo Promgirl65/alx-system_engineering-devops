@@ -8,3 +8,4 @@ printenv create a script that lists environment variables
 set creates a script that lists all local variables and environment variables, and functions
 BEST="School" Create a script that creates a new local variable
 export BEST="School" creates a script that creates a new global variable
+echo $(($TRUEKNOWLEDGE+128)) Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line
