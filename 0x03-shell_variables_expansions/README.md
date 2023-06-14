@@ -7,3 +7,4 @@ echo $PATH | tr ":" "\n" | wc -l creates a script that counts the number of dire
 printenv create a script that lists environment variables
 set creates a script that lists all local variables and environment variables, and functions
 BEST="School" Create a script that creates a new local variable
+export BEST="School" creates a script that creates a new global variable
