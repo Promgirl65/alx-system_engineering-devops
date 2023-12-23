@@ -1,13 +1,13 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 
-# This BASH script displays the content of the file /etc/passwd. 
+# This BASH script displays the content of the file /etc/passwd.
 
- 
 
-while IFS=: read -r user 
 
-do 
+while IFS=: read -r user
 
-    echo "$user" | cut -f 1,3,6 -d ':' 
+do
+
+    echo "$user" | cut -f 1,3,6 -d ':'
 
 done < "/etc/passwd"
