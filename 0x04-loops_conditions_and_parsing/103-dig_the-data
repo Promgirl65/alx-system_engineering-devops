@@ -1,7 +1,5 @@
-!/usr/bin/env bash
-
+#!/usr/bin/env bash
 # This BASH script groups visitors by IP and HTTP status code,
-
 # and displays, the data.
 
 

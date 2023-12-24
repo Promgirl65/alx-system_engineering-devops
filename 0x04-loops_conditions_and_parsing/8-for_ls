@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-
 # This BASH script displays the content of the current directory
-
-# in list format
-
+# in list format and
 # Only part of the name is displayed after the first dash.
 
 

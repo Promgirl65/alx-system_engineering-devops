@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
 # This BASH script tells a story baisplays the content of the file /etc/passwd,
-
 # using the while loop + IFS.
 
 myfile="/etc/passwd"

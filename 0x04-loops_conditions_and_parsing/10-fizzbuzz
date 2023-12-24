@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
-
 # This BASH script displays numbers from 1 to 100 in a list
-
 # displays "FizzBuzz" when the number is a multiple of 3 and 5
-
 # displays "Fizz" when the number is a multiple of 3
-
 # displays "Buzz" when the number is a multiple of 5
-
 # otherwise, displays the number.
 
 

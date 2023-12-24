@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This BASH script displays the content of the file /etc/passwd.
 
 
