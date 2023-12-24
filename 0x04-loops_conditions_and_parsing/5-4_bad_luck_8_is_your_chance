@@ -1,37 +1,35 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+# A BASH script that loops through 1 to 10
+# using while
 
-# A BASH script that loops through 1 to 10 
 
-# using while 
 
- 
+i=1
 
-i=1 
 
- 
 
-while [ $i -le 10 ] 
+while [ $i -le 10 ]
 
-do 
+do
 
-    if [ $i -eq 4 ] 
+    if [ $i -eq 4 ]
 
-    then 
+    then
 
-        echo "bad luck" 
+        echo "bad luck"
 
-    elif [ $i -eq 8 ] 
+    elif [ $i -eq 8 ]
 
-    then 
+    then
 
-        echo "good luck" 
+        echo "good luck"
 
-    else 
+    else
 
-        echo "Best School" 
+        echo "Best School"
 
-    fi 
+    fi
 
-    ((i++)) 
+    ((i++))
 
-done 
+done

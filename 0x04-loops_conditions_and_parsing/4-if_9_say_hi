@@ -1,29 +1,27 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+# A BASH script that displays Best School 10 times
+# but Hi on a new line for the 9th iteration
 
-# A BASH script that displays Best School 10 times 
 
-# but Hi on a new line for the 9th iteration 
 
- 
+i=1
 
-i=1 
 
- 
 
-while [ $i -le 10 ] 
+while [ $i -le 10 ]
 
-do 
+do
 
-    echo "Best School" 
+    echo "Best School"
 
-    if [ $i -eq 9 ] 
+    if [ $i -eq 9 ]
 
-    then 
+    then
 
-        echo "Hi" 
+        echo "Hi"
 
-    fi 
+    fi
 
-    ((i++)) 
+    ((i++))
 
-done 
+done
